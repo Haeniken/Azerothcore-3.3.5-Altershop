@@ -30,7 +30,7 @@ REPLACE INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `IconN
 (@ENTRY := @ENTRY+1, 22951, "Waist", "PvE", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 22951, "Boots", "PvE", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 27153, "Neck, Ring, Cloak", "PvE", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-(@ENTRY := @ENTRY+1, 29604, "Axe and Ranged Weapons", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 2967 "Axe and Ranged Weapons", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 29604, "Mace, Spear, Sword", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 29604, "Staff, Wrist, Dagger", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 17822, "Shields, Offhands, Manuscripts", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
@@ -51,10 +51,11 @@ REPLACE INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `IconN
 #from i+26
 (@ENTRY := @ENTRY+1, 30867, "Shirts and Tabards", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 20806, "Bags", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-(@ENTRY := @ENTRY+1, 28618, "Pets", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25305, "Pets", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 2059, "Elusive Joe", "Poisons", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 #from i+30
 #mount alliance
-(@ENTRY := @ENTRY+2, 31953, "Alex Wand", "Mounts", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 31953, "Alex Wand", "Mounts", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 #mount horde
 (@ENTRY := @ENTRY+1, 31953, "Alex Wand", "Mounts", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 #mount legendary alliance
@@ -69,7 +70,7 @@ REPLACE INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `IconN
 (@ENTRY := @ENTRY+1, 29833, "Warrior", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 27998, "Hunter", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 2631, "Rogue", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-(@ENTRY := @ENTRY+1, 26347, "Druid", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 29780, "Druid", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 0.6, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 28150, "Warlock", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 25783, "Death Knight", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 #from i+50
@@ -602,6 +603,7 @@ REPLACE INTO `npc_vendor` VALUES
 #A8 Set 70015
 SET @ENTRY := @i+15;
 SET @SLOT := 0;
+REPLACE INTO `creature_equip_template` VALUES (@ENTRY, '1', '48043', '48043', '0', '13000');
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
 INSERT INTO `creature_template_locale` VALUES
@@ -691,6 +693,7 @@ REPLACE INTO `npc_vendor` VALUES
 #А8 nonst 70016
 SET @ENTRY := @i+16;
 SET @SLOT := 0;
+REPLACE INTO `creature_equip_template` VALUES (@ENTRY, '1', '42322', '0', '0', '13000');
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
 INSERT INTO `creature_template_locale` VALUES
@@ -750,6 +753,7 @@ REPLACE INTO `npc_vendor` VALUES
 #T10 70017
 SET @ENTRY := @i+17;
 SET @SLOT := 0;
+REPLACE INTO `creature_equip_template` VALUES (@ENTRY, '1', '36942', '0', '0', '13000');
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
 INSERT INTO `creature_template_locale` VALUES
@@ -1177,7 +1181,6 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '44447', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '44448', '0', '0', '2', '13000');
 
-
 #Pets 70028
 SET @ENTRY := @i+28;
 SET @SLOT := 0;
@@ -1298,6 +1301,21 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '49663', '0', '0', '2275', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '49662', '0', '0', '2275', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '17202', '0', '0', '460', '13000');
+
+#Poisons 70029
+SET @ENTRY := @i+29;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Неуловимый Джо', 'Яды', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '3775', '0', '0', '2', '0'),
+(@ENTRY, @SLOT := @SLOT+1, '5237', '0', '0', '2', '0'),
+(@ENTRY, @SLOT := @SLOT+1, '43231', '0', '0', '2', '0'),
+(@ENTRY, @SLOT := @SLOT+1, '43233', '0', '0', '2', '0'),
+(@ENTRY, @SLOT := @SLOT+1, '43235', '0', '0', '2', '0'),
+(@ENTRY, @SLOT := @SLOT+1, '43237', '0', '0', '2', '0');
 
 #Mounts alliance 70030
 SET @ENTRY := @i+30;
