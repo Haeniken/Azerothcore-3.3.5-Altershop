@@ -24,9 +24,8 @@ REPLACE INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `IconN
 (@ENTRY := @ENTRY+1, 21022, "Scrolls", 'Consumables', NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 21022, "Pots", 'Consumables', NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 21022, "Food and Drinks", 'Consumables', NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-(@ENTRY := @ENTRY+1, 21022, "Reagents", 'Consumables', NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-(@ENTRY := @ENTRY+1, 21022, "Arrows and bullets", 'Consumables', NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-#from @i+7
+(@ENTRY := @ENTRY+1, 21022, "Reagents and Arrows", 'Consumables', NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+#from @i+6
 (@ENTRY := @ENTRY+1, 22951, "Brace", "PvE", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 22951, "Waist", "PvE", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 22951, "Boots", "PvE", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
@@ -36,11 +35,11 @@ REPLACE INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `IconN
 (@ENTRY := @ENTRY+1, 29604, "Staff, Wrist, Dagger", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 17822, "Shields, Offhands, Manuscripts", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 17822, "Trinkets", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-#from @i+16
+#from @i+15
 (@ENTRY := @ENTRY+1, 30199, "A8 Set", "PvP", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 22951, "A8 Nonset", "PvP", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 28597, "T10", "PvE", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-#from @i+19
+#from @i+18
 (@ENTRY := @ENTRY+1, 21022, "Enchantments", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 21666, "Red", "Gemstone", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 21666, "Yellow", "Gemstone", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
@@ -49,13 +48,13 @@ REPLACE INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `IconN
 (@ENTRY := @ENTRY+1, 21666, "Orange", "Gemstone", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 21666, "Violet", "Gemstone", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 21666, "Special and Rainbow", "Gemstone", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-#from i+27
+#from i+26
 (@ENTRY := @ENTRY+1, 30867, "Shirts and Tabards", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-(@ENTRY := @ENTRY+1, 21357, "Bags", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 20806, "Bags", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 28618, "Pets", NULL, NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 #from i+30
 #mount alliance
-(@ENTRY := @ENTRY+1, 31953, "Alex Wand", "Mounts", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+2, 31953, "Alex Wand", "Mounts", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 #mount horde
 (@ENTRY := @ENTRY+1, 31953, "Alex Wand", "Mounts", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 #mount legendary alliance
@@ -72,7 +71,19 @@ REPLACE INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `IconN
 (@ENTRY := @ENTRY+1, 2631, "Rogue", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 26347, "Druid", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
 (@ENTRY := @ENTRY+1, 28150, "Warlock", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
-(@ENTRY := @ENTRY+1, 25783, "Death Knight", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000');
+(@ENTRY := @ENTRY+1, 25783, "Death Knight", "Glyphs", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+#from i+50
+(@ENTRY := @ENTRY+1, 25783, "Toolkit", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Alchemy", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Mining", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Leatherworking", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Engineering", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Enchanting", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Inscription", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Tailoring", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Jewelcrafting", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Other", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000'),
+(@ENTRY := @ENTRY+1, 25783, "Fish, Meat and Grass", "Reagents", NULL, 0, 80, 80, 0, 35, 128, 1, 1.14286, 1, 0, 0, 1500, 0, 1, 512, 2048, 8, 0, 7, 138412032, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 1, 0, 2, '13000');
 
 ###########################################
 # NPC_VENDOR and CREATURE_TEMPLATE_LOCALE #
@@ -278,7 +289,7 @@ SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
 INSERT INTO `creature_template_locale` VALUES
-(@ENTRY, 'ruRU', 'Реагенты', 'Расходные материалы', '13000');
+(@ENTRY, 'ruRU', 'Реагенты и стрелы', 'Расходные материалы', '13000');
 REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '49633', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '49634', '0', '0', '2', '13000'),
@@ -294,25 +305,12 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '37201', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '44615', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '44605', '0', '0', '2', '13000'),
-(@ENTRY, @SLOT := @SLOT+1, '44614', '0', '0', '2', '13000');
-
-#Arrows and bullets 70006
-SET @ENTRY := @i+6;
-SET @SLOT := 0;
-DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
-DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
-INSERT INTO `creature_template_locale` VALUES
-(@ENTRY, 'ruRU', 'Пули и стрелы', 'Расходные материалы', '13000');
-REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '44614', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '52020', '0', '0', '2', '13000'),
-(@ENTRY, @SLOT := @SLOT+1, '52021', '0', '0', '2', '13000'),
-(@ENTRY, @SLOT := @SLOT+1, '23162', '0', '0', '2', '13000'),
-(@ENTRY, @SLOT := @SLOT+1, '44447', '0', '0', '2', '13000'),
-(@ENTRY, @SLOT := @SLOT+1, '44448', '0', '0', '2', '13000'),
-(@ENTRY, @SLOT := @SLOT+1, '35847', '0', '0', '2', '13000');
+(@ENTRY, @SLOT := @SLOT+1, '52021', '0', '0', '2', '13000');
 
-#Brace 70007
-SET @ENTRY := @i+7;
+#Brace 70006
+SET @ENTRY := @i+6;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -332,8 +330,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '50659', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '50721', '0', '0', '2', '13000');
 
-#Waist 70008
-SET @ENTRY := @i+8;
+#Waist 70007
+SET @ENTRY := @i+7;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -351,8 +349,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '50691', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '54587', '0', '0', '2', '13000');
 
-#Boots 70009
-SET @ENTRY := @i+9;
+#Boots 70008
+SET @ENTRY := @i+8;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -372,8 +370,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '54586', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '54579', '0', '0', '2', '13000');
 
-#Neck 70010
-SET @ENTRY := @i+10;
+#Neck 70009
+SET @ENTRY := @i+9;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -416,8 +414,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '50718', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '54583', '0', '0', '2', '13000');
 
-#Axe and Ranged Weapons 70011
-SET @ENTRY := @i+11;
+#Axe and Ranged Weapons 70010
+SET @ENTRY := @i+10;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -446,8 +444,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '50444', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '51394', '0', '0', '2', '13000');
 
-#Mace, Spear, Sword 70012
-SET @ENTRY := @i+12;
+#Mace, Spear, Sword 70011
+SET @ENTRY := @i+11;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -474,8 +472,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '50730', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '51393', '0', '0', '2', '13000');
 
-#Staff, Wrist, Dagger 70013
-SET @ENTRY := @i+13;
+#Staff, Wrist, Dagger 70012
+SET @ENTRY := @i+12;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -504,8 +502,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '51524', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '51530', '0', '0', '2', '13000');
 
-#Shields, Offhands, Manuscripts 70014
-SET @ENTRY := @i+14;
+#Shields, Offhands, Manuscripts 70013
+SET @ENTRY := @i+13;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -547,8 +545,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '50459', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '51417', '0', '0', '2', '13000');
 
-#Trinket 70015
-SET @ENTRY := @i+15;
+#Trinket 70014
+SET @ENTRY := @i+14;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -601,8 +599,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '48021', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '48724', '0', '0', '2', '13000');
 
-#A8 Set 70016
-SET @ENTRY := @i+16;
+#A8 Set 70015
+SET @ENTRY := @i+15;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -690,8 +688,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '51542', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '51544', '0', '0', '2', '13000');
 
-#А8 nonst 70017
-SET @ENTRY := @i+17;
+#А8 nonst 70016
+SET @ENTRY := @i+16;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -749,8 +747,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '51336', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '51358', '0', '0', '2', '13000');
 
-#T10 70018
-SET @ENTRY := @i+18;
+#T10 70017
+SET @ENTRY := @i+17;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -853,8 +851,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '51311', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '51313', '0', '0', '2', '13000');
 
-#Enchantments 70019
-SET @ENTRY := @i+19;
+#Enchantments 70018
+SET @ENTRY := @i+18;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -934,8 +932,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '44815', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '44947', '0', '0', '2', '13000');
 
-#Red 70020
-SET @ENTRY := @i+20;
+#Red 70019
+SET @ENTRY := @i+19;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -962,8 +960,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '45879', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '45883', '0', '0', '2', '13000');
 	
-#Yellow 70021
-SET @ENTRY := @i+21;
+#Yellow 70020
+SET @ENTRY := @i+20;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -985,8 +983,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '40127', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '45882', '0', '0', '2', '13000');
 
-#Blue 70022
-SET @ENTRY := @i+22;
+#Blue 70021
+SET @ENTRY := @i+21;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -1004,8 +1002,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '40121', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '45880', '0', '0', '2', '13000');
 
-#Green 70023
-SET @ENTRY := @i+23;
+#Green 70022
+SET @ENTRY := @i+22;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -1032,8 +1030,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '40180', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '40182', '0', '0', '2', '13000');
 
-#Orange 70024
-SET @ENTRY := @i+24;
+#Orange 70023
+SET @ENTRY := @i+23;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -1063,8 +1061,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '40163', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '40162', '0', '0', '2', '13000');
 
-#Violet 70025
-SET @ENTRY := @i+25;
+#Violet 70024
+SET @ENTRY := @i+24;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -1085,8 +1083,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '40139', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '40141', '0', '0', '2', '13000');
 
-#Special and Rainbow 70026
-SET @ENTRY := @i+26;
+#Special and Rainbow 70025
+SET @ENTRY := @i+25;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -1124,8 +1122,8 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '44088', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '44089', '0', '0', '2', '13000');
 
-#Shirts and Tabards 70027
-SET @ENTRY := @i+27;
+#Shirts and Tabards 70026
+SET @ENTRY := @i+26;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -1158,16 +1156,30 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '51534', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '49086', '0', '0', '2', '13000');
 
-/*
+#Bags 70027
+SET @ENTRY := @i+27;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Сумки', '', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '23162', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '51809', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23775', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '38082', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '38347', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '38399', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41597', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41598', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44446', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45773', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44447', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44448', '0', '0', '2', '13000');
 
 
-TODO BAGS
-
-
-*/
-
-#Pets 70029
-SET @ENTRY := @i+29;
+#Pets 70028
+SET @ENTRY := @i+28;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
@@ -2099,6 +2111,728 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '43673', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '43672', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '43539', '0', '0', '2', '13000');
+
+#Toolkit 70050
+SET @ENTRY := @i+50;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Инструменты', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '2901', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3470', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3486', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5956', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6219', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7005', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7966', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10580', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10719', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '20815', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '20824', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23820', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37567', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39505', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40536', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40768', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40769', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40771', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40772', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40892', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40893', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41119', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41146', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41167', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '42546', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '42641', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44739', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44951', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '47828', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '49040', '0', '0', '2', '13000');
+
+#Alchemy 70051
+SET @ENTRY := @i+51;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Алхимия', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '765', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '785', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '1288', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2447', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2449', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2450', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2452', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2453', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3164', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3357', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3358', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3371', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3372', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3818', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3820', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3821', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4402', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4625', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5635', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5637', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6358', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6370', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6371', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6522', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7067', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7077', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7080', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7082', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7972', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8153', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8831', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8836', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8839', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8845', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8846', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8925', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '9260', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '9262', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10286', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11176', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13422', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13423', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13463', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13464', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13465', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13466', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13467', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13468', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '18256', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22785', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22786', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22787', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22789', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22790', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22791', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22792', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22793', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22794', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22901', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23571', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '33447', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '33448', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36901', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36903', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36904', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36905', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36906', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36907', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36908', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37921', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39970', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40195', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40199', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40411', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41814', '0', '0', '2', '13000');
+
+#Mining 70052
+SET @ENTRY := @i+52;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Горное дело', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '2770', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2771', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2772', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2775', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2776', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2840', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2841', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2842', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3470', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3575', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3576', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3577', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3857', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3858', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3859', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3860', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7911', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10620', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11176', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11370', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12359', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12360', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12655', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '17010', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '18562', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '18567', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21884', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22202', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22203', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22452', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23424', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23425', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23426', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23427', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23446', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23448', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23449', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23573', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36909', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36910', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36912', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36913', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36916', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37663', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41163', '0', '0', '2', '13000');
+
+#Leatherworking 70053
+SET @ENTRY := @i+53;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Кожевничество', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '2318', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2319', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2320', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2934', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4231', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4232', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4234', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4236', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4304', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4461', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5082', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5498', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5637', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6470', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6471', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7075', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7078', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7081', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7286', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7392', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8154', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8165', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8167', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8169', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8170', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8171', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8172', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12753', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12803', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12810', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '15407', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '15408', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '15412', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '15414', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '15415', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '15416', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '15417', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '17056', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21887', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22452', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22457', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23571', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23793', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '25649', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '25699', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '25700', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '25707', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '29539', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '29547', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '29548', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '33567', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '33568', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '38425', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '38557', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '38558', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '38561', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44128', '0', '0', '2', '13000');
+
+#Engineering 70054
+SET @ENTRY := @i+54;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Инженерное дело', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '4357', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4359', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4361', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4363', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4364', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4371', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4375', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4377', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4382', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4387', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4388', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4389', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4399', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4404', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6219', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7191', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7506', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8150', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '9061', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10498', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10505', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10558', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10559', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10560', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10561', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '15992', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '15994', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '16000', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '16006', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '18631', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23781', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23782', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23783', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23784', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23785', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23786', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23787', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '32423', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39681', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39682', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39683', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39690', '0', '0', '2', '13000');
+
+#Enchanting 70055
+SET @ENTRY := @i+55;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Наложение чар', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '3829', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4470', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5500', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6217', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6339', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6371', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7075', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7077', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7078', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7079', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7080', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7081', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7082', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10938', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10939', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10940', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10978', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10998', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11082', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11083', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11084', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11128', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11134', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11135', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11137', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11138', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11139', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11144', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11174', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11175', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11176', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11177', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11178', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11291', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12803', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12808', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13467', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '13926', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '14343', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '14344', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '16202', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '16203', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '16204', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '16206', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '17034', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '20725', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22445', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22446', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22447', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22448', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22449', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22450', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22451', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22452', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22456', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22461', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22462', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22463', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22573', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '25843', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '25844', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '25845', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '34052', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '34054', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '34055', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '34056', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '34057', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41745', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44452', '0', '0', '2', '13000');
+
+#Inscription 70056
+SET @ENTRY := @i+56;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Начертание', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '10648', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37101', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39151', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39334', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39338', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39339', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39340', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39341', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39342', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39354', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39393', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39469', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39501', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39502', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39774', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43103', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43104', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43105', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43106', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43107', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43108', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43109', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43116', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43117', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43118', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43119', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43120', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43121', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43122', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43123', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43124', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43125', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43126', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43127', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45912', '0', '0', '2', '13000');
+
+#Tailoring 70057
+SET @ENTRY := @i+57;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Портняжное дело', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '2320', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2321', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2324', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2325', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2589', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2592', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2604', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2605', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2996', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2997', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3182', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3827', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4291', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4305', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4306', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4337', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4338', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4339', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4340', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '4341', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5339', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5498', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6260', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6261', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6371', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7071', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8343', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '9210', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '10290', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12622', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '14047', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '14048', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '14227', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '14256', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '14341', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '14342', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21840', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21842', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21844', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21877', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '24271', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '24272', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '33470', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '38426', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41510', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41511', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41520', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41593', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41594', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41595', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '42253', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '49908', '0', '0', '2', '13000');
+
+#Jewelcrafting 70058
+SET @ENTRY := @i+58;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Ювелирное дело', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '774', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '818', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '1206', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '1210', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '1529', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '1705', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2770', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2835', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2836', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2838', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2840', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3407', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3577', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3864', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5498', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6037', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7067', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7909', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7910', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7912', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7971', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8151', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11137', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '11754', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12361', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12363', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12364', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12365', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12799', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12800', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '12804', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '20816', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '20817', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '20963', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21752', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21884', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21885', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21886', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '21929', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22452', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22457', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22578', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23077', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23079', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23107', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23112', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23117', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23436', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23437', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23438', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23439', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23440', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23441', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23445', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23447', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23448', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '24243', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '24478', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '24479', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '25867', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '25868', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '31079', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '32227', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '32228', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '32229', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '32230', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '32231', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '32249', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '34052', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '34054', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36783', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36784', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36917', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36918', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36919', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36920', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36921', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36922', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36923', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36924', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36925', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36926', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36927', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36928', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36929', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36930', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36931', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36932', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36933', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36934', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41266', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41334', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41596', '0', '0', '2', '13000');
+
+#Other 70059
+SET @ENTRY := @i+59;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Разное', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '7068', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7069', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '22451', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23571', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '23572', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '34055', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '35622', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '35623', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '35624', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '35625', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '35627', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36781', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36860', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37145', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37147', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37159', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37160', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37164', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37168', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37700', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37701', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37702', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37703', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37704', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37705', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39151', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39334', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39338', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39339', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39340', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39341', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39342', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39343', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39354', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39501', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39502', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39505', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40195', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40199', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40248', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '40411', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '42440', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43007', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43102', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43103', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43104', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43105', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43106', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43107', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43108', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43109', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44142', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44161', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44163', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44316', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44317', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44318', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44322', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44323', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44324', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44475', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44700', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44835', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44852', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44853', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44958', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45087', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45909', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '47556', '0', '0', '2', '13000');
+
+#Fish, Meat and Grass 70060
+SET @ENTRY := @i+60;
+SET @SLOT := 0;
+DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
+DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
+INSERT INTO `creature_template_locale` VALUES
+(@ENTRY, 'ruRU', 'Рыба, мясо и трава', 'Реагенты', '13000');
+REPLACE INTO `npc_vendor` VALUES
+(@ENTRY, @SLOT := @SLOT+1, '2672', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2674', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '2678', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '3404', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '5504', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6662', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '6889', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '7974', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '8838', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '24477', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '27674', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '27688', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '30817', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '34736', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '35794', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36782', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36901', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36902', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36903', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36904', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36905', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36906', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36907', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '36908', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '37921', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '38688', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '39152', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41800', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41801', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41802', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41803', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41805', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41806', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41807', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41808', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41809', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41810', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41812', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41813', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '41814', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43007', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43009', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43010', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43011', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43012', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43013', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43016', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43501', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43571', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43572', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43646', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43647', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '43652', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44228', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '44834', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45907', '0', '0', '2', '13000');
 
 #SET @i := 70000; #todo comment
 #little fixes
