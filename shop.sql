@@ -8,10 +8,13 @@
 # For mount's vendors / ДЛЯ ВЕНДОРОВ С МАУНТАМИ
 # .npc set phase 65 - ONLY ALLIANCE CAN SEE IT / ВИДИМ ТОЛЬКО ДЛЯ АЛЬЯНСА
 # .npc set phase 512 - ONLY HORDE CAN SEE IT / ВИДИМ ТОЛЬКО ДЛЯ ОРДЫ
-
+# 190011 reforger
 */
 
 SET @i := 70000;
+
+/*ALTER TABLE gossip_menu MODIFY MenuID MEDIUMINT;
+ALTER TABLE gossip_menu_option MODIFY MenuID MEDIUMINT;*/
 
 ###########################################
 # CREATURE_TEMPLATE                       #
@@ -1210,14 +1213,29 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '44088', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '44089', '0', '0', '2', '13000');
 
-#Shirts and Tabards 70026
-SET @ENTRY := @i+26;
+#Shirts and Tabards 70026 @i+26
+SET @ENTRY := 70026;
 SET @SLOT := 0;
 DELETE FROM `npc_vendor` WHERE (`entry`=@ENTRY);
 DELETE FROM `creature_template_locale` WHERE (`entry`=@ENTRY);
 INSERT INTO `creature_template_locale` VALUES
 (@ENTRY, 'ruRU', 'Рубашки и накидки', '', '13000');
 REPLACE INTO `npc_vendor` VALUES
+#Рубашки 52019
+#Прелесть
+(@ENTRY, @SLOT := @SLOT+1, '52019', '0', '0', '2', '13000'),
+#Расы
+(@ENTRY, @SLOT := @SLOT+1, '45674', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45672', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45669', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45664', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45673', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45667', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45666', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45668', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45671', '0', '0', '2', '13000'),
+(@ENTRY, @SLOT := @SLOT+1, '45670', '0', '0', '2', '13000'),
+#Остальное
 (@ENTRY, @SLOT := @SLOT+1, '42360', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '42363', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '42368', '0', '0', '2', '13000'),
@@ -1226,6 +1244,7 @@ REPLACE INTO `npc_vendor` VALUES
 (@ENTRY, @SLOT := @SLOT+1, '42375', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '42377', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '44694', '0', '0', '2', '13000'),
+#Гербовые накидки
 (@ENTRY, @SLOT := @SLOT+1, '40643', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '45582', '0', '0', '2', '13000'),
 (@ENTRY, @SLOT := @SLOT+1, '45574', '0', '0', '2', '13000'),
